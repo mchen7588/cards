@@ -28,6 +28,7 @@ defmodule Cards do
       iex> Cards.contains?(deck, "Ace of Spade")
       true
 
+      iex> deck = Cards.create_deck
       iex> Cards.contains?(deck, "Ace of Spa")
       false
   """
